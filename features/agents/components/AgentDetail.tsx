@@ -24,7 +24,7 @@ export function AgentOverview({ agent }: AgentOverviewProps) {
                     </thead>
                     <tbody>
                         <tr className="border-b">
-                            <td className="py-2 pr-4 text-xs font-mono"><USER_HOME>/.openclaw/workspace</td>
+                            <td className="py-2 pr-4 text-xs font-mono">{"~/.openclaw/workspace"}</td>
                             <td className="py-2 pr-4 text-xs">openai-codex/gpt-5.3-codex</td>
                             <td className="py-2 pr-4 text-xs">Manef</td>
                             <td className="py-2 pr-4 text-xs">{agent.isDefault ? "yes" : "no"}</td>
